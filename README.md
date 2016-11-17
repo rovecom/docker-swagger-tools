@@ -2,6 +2,8 @@
 
 Docker image containing [swagger-tools](https://github.com/apigee-127/swagger-tools).
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/rovecom/swagger-tools/)
+
 ## Build it
 
 Build the image by running:
