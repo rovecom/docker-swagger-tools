@@ -6,5 +6,4 @@ RUN npm install -g swagger-tools
 
 WORKDIR /work
 
-ENTRYPOINT ["swagger-tools"]
-CMD ["--version"]
+CMD ["swagger-tools", "--version"]
