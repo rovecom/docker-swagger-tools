@@ -14,8 +14,8 @@ Build the image by running:
 
 View help files:
 
-`docker run -it --rm rovecom/swagger-tools --help`
+`docker run -it --rm rovecom/swagger-tools swagger-tools --help`
 
 Validate a file:
 
-`docker run -it --rm -v ${pwd}:/work rovecom/swagger-tools validate swagger.yaml`
+`docker run -it --rm -v $(pwd):/work rovecom/swagger-tools swagger-tools validate swagger.yaml`
